@@ -1,0 +1,8 @@
+df=data.frame(emp_id=c(1,2,3,4),age=c(25,30,28,34),sal=c(40000,44000,30000,50000))
+print(df)
+cat("mean:",mean(df$sal),"\n")
+cat("median:",median(df$sal),"\n")
+cat("sd:",sd(df$sal),"\n")
+cat("max:",max(df$sal),"\n")
+cat("min:",min(df$sal),"\n")
+cat("summary:",summary(df$sal),"\n")

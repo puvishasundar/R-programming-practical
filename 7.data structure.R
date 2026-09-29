@@ -1,0 +1,7 @@
+vec=c(99,98,97,96,95)
+print(vec)
+lis=list(name="Arun",age=25,marks=c(76,87,98))
+print(lis)
+print(lis$marks)
+df=data.frame(emp_id=c(1,2,3,4),age=c(25,30,28,34),sal=c(40000,44000,30000,50000))
+print(df)

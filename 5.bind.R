@@ -1,0 +1,7 @@
+d1=data.frame(ID=c(1,2,3),Name=c("priya","riya","somu"))
+d2=data.frame(ID=c(4,5),Name=c("preethi","ram"))
+d3=data.frame(Age=c(19,20,21),Place=c("Villupuram","Chennai","Chennai"))
+cat("Cbind\n")
+print(cbind(d1,d3))
+cat("Rbind\n")
+print(rbind(d1,d2))
